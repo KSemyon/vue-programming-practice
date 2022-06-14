@@ -1,7 +1,7 @@
 <template>
     <v-div>
         <h1>Продукты</h1>
-        <v-table :headers="tableHeaders" :content="tableContent" />
+        <v-table :headers="Headers" :content="Content" />
     </v-div>
 </template>
 
@@ -14,10 +14,10 @@ export default {
     },
     data() {
         return {
-            tableHeaders: [
+            Headers: [
                 "ID", "Название", "Цена продажи"
             ],
-            tableContent: [
+            Content: [
                 [1,'Китайские палочки для еды',50],
                 [2,'Одноразовые салфетки',50],
                 [3,'Бумага A4',350],

@@ -1,7 +1,7 @@
 <template>
     <v-div>
         <h1>Заказы</h1>
-        <v-table :headers="tableHeaders" :content="tableContent" />
+        <v-table :headers="Headers" :content="Content" />
     </v-div>
 </template>
 
@@ -14,10 +14,10 @@ export default {
     },
     data() {
         return {
-            tableHeaders: [
+            Headers: [
                 "ID","ИНН","ID Продукта","Количество","Закупочная цена","Дата заключения","Дата доставки","ID Склада","ID Сотрудника"
             ],
-            tableContent: [
+            Content: [
                 [1,372523715592,1,120,25,'01-05-2022','21-06-2022',2,1],
                 [2,211074240439,2,734,20,'02-06-2022','22-06-2022',4,10],
                 [3,372523715592,3,424,150,'08-06-2022','29-06-2022',3,10],

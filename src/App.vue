@@ -30,6 +30,13 @@ export default {
   padding: 0;
 }
 
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat Regular'), local('Montserrat-Regular'), url('http://hb.bizmrg.com/fonts/montserrat/400.woff2') format('woff2'), url('http://hb.bizmrg.com/fonts/montserrat/400.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}  
+
 p {
   font-size: 14pt;
 }

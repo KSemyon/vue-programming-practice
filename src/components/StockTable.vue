@@ -1,7 +1,7 @@
 <template>
 <v-div>
     <h1>Склады</h1>
-    <v-table :headers="tableHeaders" :content="tableContent" />
+    <v-table :headers="Headers" :content="Content" />
 </v-div>
 </template>
 
@@ -14,10 +14,10 @@ export default {
     },
     data() {
         return {
-            tableHeaders: [
+            Headers: [
                 "Id", "Адрес", "ID Сотрудника"
             ],
-            tableContent: [
+            Content: [
                 [1,'843628, г Самара, Ленина, 31',3],
                 [2,'126345, г Иркутск, Бабушкина, 29',2],
                 [3,'193643, г Владивосток, Кирова, 5',6]

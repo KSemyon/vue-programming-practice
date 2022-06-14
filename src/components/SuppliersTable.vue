@@ -1,7 +1,7 @@
 <template>
     <v-div>
         <h1>Поставщики</h1>
-        <v-table :headers="tableHeaders" :content="tableContent" />
+        <v-table :headers="Headers" :content="Content" />
     </v-div>
 </template>
 
@@ -14,10 +14,10 @@ export default {
     },
     data() {
         return {
-            tableHeaders: [
+            Headers: [
                 "INN", "Название", "Почта", "Телефон", "Адрес"
             ],
-            tableContent: [
+            Content: [
                 [372523715592,'udarytokag','udarytokag.@mail.ru','7(914)864-35-92','310948, г Сергиев Посад, пер. Домодедовская, 39'],
                 [111074240439,'ylinecobuq','ylinecobuq.@mail.ru','7(914)878-58-70','310948, г Сергиев Посад, пер. Домодедовская, 37'],
                 [346946915745,'yruhypufew','yruhypufew.@mail.ru','7(914)179-72-32','459618, г Серпухов, проезд Ладыгина, 63'],
