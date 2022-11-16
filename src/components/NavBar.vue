@@ -7,6 +7,7 @@
     <li><a class="navbar-brand" href="#"><VBut @click="$router.push('/Stock')">Склады</VBut></a></li>
     <li><a class="navbar-brand" href="#"><VBut @click="$router.push('/product')">Продукты</VBut></a></li>
     <li><a class="navbar-brand" href="#"><VBut @click="$emit('logOut', false)">Выход</VBut></a></li>
+    <li class ="right"><img class="navbar-img" src = "..\img\user.jpg" alt=""></li>
   </ul>  
 
 </div>
@@ -29,6 +30,7 @@ ul {
   padding: 0;
   overflow: hidden;
   background-color: #333;
+  vertical-align: middle;
 }
 
 li {
@@ -46,6 +48,19 @@ li a {
 
 li a:hover {
   background-color: #111;
+}
+
+.navbar-img{
+  width:50px;
+  height:50xp;
+  border-radius:100px;
+  float:right;
+  margin-top:13px;
+}
+
+.right {
+    float:right;
+    margin-right:100px;
 }
 
 </style>

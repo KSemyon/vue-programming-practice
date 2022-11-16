@@ -31,4 +31,8 @@ export default {
 </script>
 
 <style>
+h1{
+    margin-left:100px;
+    margin-top:20px;
+}
 </style>
